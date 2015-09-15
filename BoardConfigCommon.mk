@@ -33,6 +33,8 @@ TARGET_KERNEL_CONFIG := twrp_santos10_defconfig
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_BASE := 0x10000000
 
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/santos10-common/custombootimg.mk
+
 # Filesystem
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
